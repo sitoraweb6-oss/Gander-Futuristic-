@@ -1,0 +1,6 @@
+{
+  "name": "Gander Futuristic Agency",
+  "description": "A highly premium, interactive futuristic digital agency and portfolio experience inspired by high-end dark luxury UI design with vibrant orange neon accents, animated transitions, particle fields, and rich cinematic depth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
