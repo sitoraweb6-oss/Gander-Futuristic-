@@ -34,6 +34,7 @@ import {
   Bot
 } from 'lucide-react';
 import { PageId, Service, PortfolioItem, TeamMember, FAQItem, Testimonial } from './types';
+import { CoreAttribution } from './components/core-attribution';
 
 export default function App() {
   // Navigation active tab State
@@ -1882,10 +1883,14 @@ export default function App() {
           <button onClick={() => { playBeep(500, 0.03); setActiveTab('contact'); }} className="hover:text-white transition-colors cursor-pointer">TRANSMIT PACKET</button>
         </div>
 
-        <div className="text-[10px] text-white/20">
-          PRODUCED FOR PRE-CLIENT REVIEW // PLATFORM v.26.12
+        <div className="text-[10px] text-white/20 flex flex-col items-center md:items-end gap-2">
+          <div>PRODUCED FOR PRE-CLIENT REVIEW // PLATFORM v.26.12</div>
+          <CoreAttribution variant="footer" />
         </div>
       </footer>
+
+      {/* Floating Core Attribution Component */}
+      <CoreAttribution variant="floating" />
 
     </div>
   );
