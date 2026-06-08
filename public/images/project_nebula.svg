@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="gNebula" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0714"/>
+      <stop offset="50%" stop-color="#140724"/>
+      <stop offset="100%" stop-color="#030303"/>
+    </linearGradient>
+    <radialGradient id="glowNebula" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF2D55" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FF2D55" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#gNebula)"/>
+  <rect width="100%" height="100%" fill="url(#glowNebula)"/>
+  
+  <g stroke="#FF2D55" stroke-width="0.5" opacity="0.2">
+    <circle cx="400" cy="250" r="80" fill="none"/>
+    <circle cx="400" cy="250" r="160" fill="none"/>
+    <circle cx="400" cy="250" r="240" fill="none"/>
+    <line x1="0" y1="0" x2="800" y2="500"/>
+    <line x1="800" y1="0" x2="0" y2="500"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+  </g>
+  
+  <polygon points="400,120 490,210 450,330 350,330 310,210" fill="none" stroke="#FF2D55" stroke-width="2.5" filter="drop-shadow(0px 0px 10px #FF2D55)"/>
+  <polygon points="400,170 450,220 430,290 370,290 350,220" fill="none" stroke="#F27D26" stroke-width="1.5" opacity="0.7"/>
+  
+  <circle cx="400" cy="120" r="5" fill="#ffffff"/>
+  <circle cx="490" cy="210" r="5" fill="#ffffff"/>
+  <circle cx="450" cy="330" r="5" fill="#ffffff"/>
+  <circle cx="350" cy="330" r="5" fill="#ffffff"/>
+  <circle cx="310" cy="210" r="5" fill="#ffffff"/>
+  
+  <text x="30" y="40" fill="#FF2D55" font-family="monospace" font-size="12" letter-spacing="2">NEBULA CLOUD MATRIX // INTEGRATED</text>
+  <text x="690" y="40" fill="#FF2D55" font-family="monospace" font-size="12" letter-spacing="1">MESH_ACTIVE</text>
+</svg>

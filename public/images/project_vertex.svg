@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="gVertex" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071114"/>
+      <stop offset="50%" stop-color="#021c24"/>
+      <stop offset="100%" stop-color="#030303"/>
+    </linearGradient>
+    <radialGradient id="glowVertex" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#30d158" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#30d158" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#gVertex)"/>
+  <rect width="100%" height="100%" fill="url(#glowVertex)"/>
+  
+  <g stroke="#30d158" stroke-width="1" opacity="0.3" fill="none">
+    <polygon points="150,150 250,100 350,150 250,200"/>
+    <line x1="150" y1="150" x2="150" y2="250"/>
+    <line x1="250" y1="200" x2="250" y2="300"/>
+    <line x1="350" y1="150" x2="350" y2="250"/>
+    <polygon points="150,250 250,300 350,250 250,200" opacity="0.3"/>
+    
+    <polygon points="450,250 550,200 650,250 550,300"/>
+    <line x1="450" y1="250" x2="450" y2="350"/>
+    <line x1="550" y1="300" x2="550" y2="400"/>
+    <line x1="650" y1="250" x2="650" y2="350"/>
+  </g>
+  
+  <text x="30" y="40" fill="#30d158" font-family="monospace" font-size="12" letter-spacing="2">VERTEX CONTROL MATRIX // SECURE</text>
+  <text x="710" y="40" fill="#30d158" font-family="monospace" font-size="12" letter-spacing="1">v.8.85</text>
+  
+  <circle cx="400" cy="250" r="30" fill="none" stroke="#30d158" stroke-width="3" stroke-dasharray="140 40" filter="drop-shadow(0px 0px 6px #30d158)"/>
+  <text x="388" y="254" fill="#30d158" font-family="monospace" font-size="11" font-weight="bold">82%</text>
+</svg>

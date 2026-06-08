@@ -215,7 +215,7 @@ export default function App() {
       title: 'GEMINI ORBIT',
       category: 'Artificial Intelligence',
       description: 'Interactive telemetry workspace for configuring client-side neural agent paths.',
-      imageUrl: '/src/assets/images/futuristic_hero_1780862257652.png', // Main generated hero reference asset
+      imageUrl: '/images/futuristic_hero_1780862257652.png', // Main generated hero reference asset
       services: ['UX/UI Re-engineering', 'Gemini APIs', 'Dashboard Motion Flow'],
       stats: { label: 'Data Processing Rate', value: '8.4M keys/sec' },
       scope: 'Core Web Platform',
@@ -226,7 +226,7 @@ export default function App() {
       title: 'KRONOS TRANSACTION ENGINE',
       category: 'Fintech Platform',
       description: 'High-throughput black luxury trading interface showing latency fluctuations below 4ms.',
-      imageUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800',
+      imageUrl: '/images/project_kronos.svg',
       services: ['High-Performance State Engine', 'Telemetry Feeds', 'Audio Click-Sync'],
       stats: { label: 'Transaction Latency', value: '2.8ms avg' },
       scope: 'Interactive Dashboard',
@@ -237,7 +237,7 @@ export default function App() {
       title: 'NEBULA CLOUD MATRIX',
       category: 'Creative Product',
       description: 'Ultra-low-latency real-time video streaming client with full-mesh audio visualization.',
-      imageUrl: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&q=80&w=800',
+      imageUrl: '/images/project_nebula.svg',
       services: ['WebGL Particle Fields', 'Adaptive Buffering Systems', 'Tactile UI Mode'],
       stats: { label: 'Stream Resolution Up', value: '+42% efficiency' },
       scope: 'Static SPA Experience',
@@ -248,7 +248,7 @@ export default function App() {
       title: 'VERTEX CONTROL GRID',
       category: 'SaaS Ecosystem',
       description: 'Interactive geographical and structural warehouse telemetry panel with fluid layout.',
-      imageUrl: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=800',
+      imageUrl: '/images/project_vertex.svg',
       services: ['Bento Grid Component Setup', 'SVG Asset Pipelines', 'Real-time Alerts'],
       stats: { label: 'Audit Time Reduction', value: '-85% saved' },
       scope: 'Multi-Tenant Panel UI',
@@ -266,19 +266,19 @@ export default function App() {
     {
       name: 'Dr. Evelyn Vance',
       role: 'CREATIVE DIRECTOR & HUMAN IN THE LOOP',
-      avatarUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200',
+      avatarUrl: '/images/avatar_evelyn.svg',
       bio: 'Evelyn leads standard design hierarchies. She brings over 14 years of creative conceptual styling and premium brand architecture.'
     },
     {
       name: 'Julian Thorne',
       role: 'CHIEF FRONTEND GENERAL',
-      avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200',
+      avatarUrl: '/images/avatar_julian.svg',
       bio: 'Julian is obsessed with raw browser framerates, CSS physics loops, and reactive state optimization. Hand-writes complex audio contexts.'
     },
     {
       name: 'AETHER Mainframe AI',
       role: 'INTELLIGENCE ORCHESTRATOR',
-      avatarUrl: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=200',
+      avatarUrl: '/images/avatar_ai.svg',
       bio: 'Our co-pilot custom autonomous agent system, answering development queries, sorting file structures, and checking validation syntax.'
     }
   ];
@@ -308,7 +308,7 @@ export default function App() {
       role: 'Director of UX Strategy',
       company: 'Quantum Ascent',
       text: 'AETHER completely re-sculpted our SaaS landing workflow. Users are captivated by the gorgeous visual transition states. Our Conversion targets soared by 280% in the first month alone!',
-      avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150',
+      avatarUrl: '/images/avatar_leandra.svg',
       rating: 5
     },
     {
@@ -316,7 +316,7 @@ export default function App() {
       role: 'VP Ecosystem Engineering',
       company: 'Kronos Group',
       text: 'Engineering compliance usually means visually boring screens. Julian and Evelyn crafted an incredibly beautiful, reactive dashboard that makes asset analysis feel like a sci-fi motion sequence.',
-      avatarUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150',
+      avatarUrl: '/images/avatar_marcus.svg',
       rating: 5
     }
   ];
@@ -698,7 +698,7 @@ export default function App() {
               <div className="absolute lg:inset-0 flex items-center justify-center pointer-events-none z-10 select-none order-2 lg:order-none my-8 lg:my-0">
                 <div className="relative w-[300px] sm:w-[380px] lg:w-[480px] aspect-[4/5] flex items-center justify-center">
                   <img 
-                    src="/src/assets/images/futuristic_hero_1780862257652.png" 
+                    src="/images/futuristic_hero_1780862257652.png" 
                     alt="AETHER Cybernetic Android Helmet Portrait" 
                     className="w-full h-full object-cover rounded-2xl filter brightness-110 contrast-100 drop-shadow-[0_25px_50px_rgba(0,0,0,0.8)] shadow-[0_0_80px_rgba(242,125,38,0.15)] transition-transform duration-700 hover:scale-105 pointer-events-auto"
                     referrerPolicy="no-referrer"
@@ -717,9 +717,9 @@ export default function App() {
                 {/* 900+ Happy Clients Pill */}
                 <div className="inline-flex items-center gap-2.5 py-2 px-4 rounded-full border border-white/5 bg-neutral-950/40 backdrop-blur-md shadow-lg">
                   <div className="flex -space-x-1.5">
-                    <img className="w-5 h-5 rounded-full border border-black object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150" alt="avatar-1" />
-                    <img className="w-5 h-5 rounded-full border border-black object-cover" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150" alt="avatar-2" />
-                    <img className="w-5 h-5 rounded-full border border-black object-cover" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=150" alt="avatar-3" />
+                    <img className="w-5 h-5 rounded-full border border-black object-cover" src="/images/avatar_leandra.svg" alt="avatar-1" />
+                    <img className="w-5 h-5 rounded-full border border-black object-cover" src="/images/avatar_generic1.svg" alt="avatar-2" />
+                    <img className="w-5 h-5 rounded-full border border-black object-cover" src="/images/avatar_generic2.svg" alt="avatar-3" />
                   </div>
                   <span className="text-[10px] font-mono tracking-[0.15em] text-white/50 uppercase font-bold">900+ Happy Clients</span>
                 </div>

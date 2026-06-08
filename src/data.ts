@@ -49,7 +49,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     title: 'NEUROSYS™ — AI Mindmap & Synaptic Engine',
     category: 'AI & Engineering',
     description: 'A hardware-accelerated interactive canvas allowing direct mental brainstorming mapped via real-time LLM structures.',
-    imageUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1200',
+    imageUrl: '/images/futuristic_hero_1780862257652.png',
     services: ['AI Integration', 'Creative Engineering', 'UI/UX Redesign'],
     stats: { label: 'Performance Raise', value: '+340%' },
     scope: 'Full Product Design & LLM Core Integration',
@@ -60,7 +60,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     title: 'ORION CAPSULE — Luxury Temporal Wearables',
     category: 'Branding & Design',
     description: 'Brand identity and dynamic interactive scroll story for the release of Orion\'s premier quantum watch line.',
-    imageUrl: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&q=80&w=1200',
+    imageUrl: '/images/project_kronos.svg',
     services: ['Digital Craft', 'Cinematic Motion'],
     stats: { label: 'Sell-Out Duration', value: '14 Mins' },
     scope: 'Interactive Marketing Engine & Identity',
@@ -71,7 +71,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     title: 'APEX LEDGER — Sovereign Asset Core Protocol',
     category: 'SaaS Engineering',
     description: 'High-throughput crypto-asset transaction matrix built with ultra-low latency real-time status modules.',
-    imageUrl: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=1200',
+    imageUrl: '/images/project_nebula.svg',
     services: ['SaaS Engineering', 'Security Architecture'],
     stats: { label: 'Daily Volume Secured', value: '$840M' },
     scope: 'Protocol Interface Mockup & Core Portal',
@@ -82,7 +82,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     title: 'VORTEX — Deep Space Simulation OS',
     category: 'Creative Engineering',
     description: 'An immersive telemetry dashboard visualizing orbital coordinates and atmosphere readings using dynamic Canvas rendering.',
-    imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200',
+    imageUrl: '/images/project_vertex.svg',
     services: ['Creative Engineering', '3D UI Graphics'],
     stats: { label: 'Frame rate locked', value: '120fps' },
     scope: 'Sub-orbital Simulation UI Engine',
@@ -94,19 +94,19 @@ export const TEAM_DATA: TeamMember[] = [
   {
     name: 'Xavier Vance',
     role: 'Creative Director & Founder',
-    avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400',
+    avatarUrl: '/images/avatar_evelyn.svg',
     bio: 'Pioneering sensory digital layouts for over twelve years. Obsessed with micro-typography, physical hardware visor graphics, and high-contrast styling.'
   },
   {
     name: 'Sariyah Thorne',
     role: 'Principal Creative Engineer',
-    avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400',
+    avatarUrl: '/images/avatar_julian.svg',
     bio: 'Specialist in custom GPU shader pipelines, math-driven transitions, and interactive physics mechanics. Turning pure ideas into liquid-smooth animations.'
   },
   {
     name: 'Kenji Sato',
     role: 'Lead AI System Architect',
-    avatarUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400',
+    avatarUrl: '/images/avatar_ai.svg',
     bio: 'Architecting edge LLM middleware structures and multi-modal embedding classifiers. Obsessed with offline-first, speed-first system designs.'
   }
 ];
@@ -136,7 +136,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     role: 'VP of Digital Innovation',
     company: 'NovaGen Labs',
     text: 'Gander took our conceptual vision and engineered an absolute masterpiece. Our conversion grew by 85% in two weeks pure, driven entirely by the cinematic scroll layouts and futuristic responsive feel.',
-    avatarUrl: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150',
+    avatarUrl: '/images/avatar_leandra.svg',
     rating: 5
   },
   {
@@ -144,7 +144,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     role: 'Chief of Strategy',
     company: 'Apex Core Platform',
     text: 'Their design discipline is unlike anything we have seen. They refused to load our page with generic templates, crafting instead an incredibly custom, dark luxury, orange-neon terminal that leaves clients speechless.',
-    avatarUrl: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=150',
+    avatarUrl: '/images/avatar_marcus.svg',
     rating: 5
   }
 ];

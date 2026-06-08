@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="gKronos" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120c08"/>
+      <stop offset="50%" stop-color="#24130a"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <radialGradient id="glowKronos" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F27D26" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#F27D26" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#gKronos)"/>
+  <rect width="100%" height="100%" fill="url(#glowKronos)"/>
+  
+  <g stroke="#F27D26" stroke-width="0.5" opacity="0.15">
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="350" x2="800" y2="350"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="100" y1="0" x2="100" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="500" y1="0" x2="500" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+    <line x1="700" y1="0" x2="700" y2="500"/>
+  </g>
+  
+  <path d="M 50,400 Q 150,220 250,300 T 450,150 T 650,280 T 750,100" fill="none" stroke="#F27D26" stroke-width="4" filter="drop-shadow(0px 0px 8px #F27D26)"/>
+  <path d="M 50,420 Q 180,300 280,350 T 480,200 T 680,220 T 750,150" fill="none" stroke="#FF2D55" stroke-width="2" opacity="0.6"/>
+  
+  <circle cx="250" cy="300" r="6" fill="#F27D26"/>
+  <circle cx="450" cy="150" r="6" fill="#F27D26"/>
+  <circle cx="650" cy="280" r="6" fill="#F27D26"/>
+  
+  <text x="30" y="40" fill="#F27D26" font-family="monospace" font-size="12" letter-spacing="2">KRONOS SECURE NETWORKS // SYS_OK</text>
+  <text x="700" y="40" fill="#F27D26" font-family="monospace" font-size="12" letter-spacing="1">v.24_B</text>
+  <rect x="30" y="60" width="120" height="30" rx="4" fill="#F27D26" fill-opacity="0.1" stroke="#F27D26" stroke-width="1"/>
+  <text x="40" y="80" fill="#F27D26" font-family="monospace" font-size="11">LATENCY: 2.8ms</text>
+  
+  <rect x="170" y="60" width="150" height="30" rx="4" fill="#FF2D55" fill-opacity="0.1" stroke="#FF2D55" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="180" y="80" fill="#FF2D55" font-family="monospace" font-size="11">STREAM VELOCITY: MAX</text>
+</svg>
