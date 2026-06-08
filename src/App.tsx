@@ -681,146 +681,157 @@ export default function App() {
         {activeTab === 'home' && (
           <div id="home-view" className="space-y-16 animate-fade-in">
             
-            {/* Split Cinematic Hero Row */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-4">
+            {/* Supercharged Visual Hero: Resembling Gander composition and layout exactly */}
+            <div className="relative w-full min-h-[640px] lg:h-[calc(100vh-160px)] lg:min-h-[750px] flex flex-col lg:flex-row items-center justify-between pt-4 pb-12 lg:py-0 overflow-hidden select-none">
               
-              {/* Left Column Information Cards & Typography */}
-              <div className="lg:col-span-7 space-y-8 flex flex-col justify-center">
-                {/* Floating futuristic neon badge */}
-                <div className="self-start inline-flex items-center gap-2 py-1.5 px-4 rounded-full border border-orange-500/30 bg-orange-500/5 text-[#F27D26] text-[10px] font-mono tracking-[0.2em] uppercase shadow-[0_0_15px_rgba(242,125,38,0.1)]">
-                  <Activity size={10} className="text-[#F27D26] animate-pulse" />
-                  NEXT GENERATION OF INTERACTIVE DIGITAL EXPERIENCES
-                </div>
+              {/* Radial Hot-glow behind the main subject */}
+              <div className="absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] md:w-[680px] md:h-[680px] rounded-full blur-[100px] md:blur-[160px] opacity-[0.25] pointer-events-none z-0 mix-blend-screen bg-radial from-[#F27D26] via-[#FF2154] to-transparent" />
+              
+              {/* Massive Oversized Typography behind the subject */}
+              <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 flex items-center justify-center font-black pointer-events-none select-none z-0">
+                <span className="text-[14vw] tracking-tighter text-white/[0.035] leading-none text-center font-sans tracking-wide select-none font-bold">
+                  AETHER
+                </span>
+              </div>
 
-                <div className="space-y-4">
-                  {/* Huge cinematic typography heading with gradient shimmer */}
-                  <h1 className="text-5xl sm:text-7xl xl:text-8xl font-black tracking-tighter leading-[0.9] text-white">
-                    BUILDING <br />
-                    <span className="text-shimmer bg-gradient-to-r from-[#F27D26] via-[#FF264D] to-[#F27D26] bg-clip-text text-transparent">
-                      PREMIUM
-                    </span> <br />
-                    SERVICES
-                  </h1>
-                  <p className="text-white/50 text-base md:text-lg max-w-xl font-sans tracking-wide leading-relaxed pt-2">
-                    We engineer high-performance responsive interfaces, exquisite typography layouts, and cinematic brand identities powered by modern React 19 architecture.
-                  </p>
-                </div>
-
-                {/* Main Action buttons row */}
-                <div className="flex flex-wrap gap-4 pt-2">
-                  <button
-                    id="hero-portfolio-btn"
-                    onClick={() => { playBeep(900, 0.08, 'triangle'); setActiveTab('portfolio'); }}
-                    className="px-8 py-4 bg-gradient-to-r from-[#F27D26] to-[#FF2D55] text-white font-bold rounded-full text-xs tracking-widest shadow-[0_0_25px_rgba(242,125,38,0.3)] hover:shadow-[0_0_35px_rgba(242,125,38,0.5)] hover:scale-[1.03] transition-all cursor-pointer inline-flex items-center gap-2"
-                  >
-                    EXPLORE MASTERPIECES
-                    <ArrowRight size={14} />
-                  </button>
-                  <button
-                    id="hero-services-btn"
-                    onClick={() => { playBeep(700, 0.04); setActiveTab('services'); }}
-                    className="px-8 py-4 border border-white/15 bg-white/5 text-white/90 hover:bg-white/10 hover:border-white/30 font-bold rounded-full text-xs tracking-widest transition-all cursor-pointer"
-                  >
-                    OUR PROCESS
-                  </button>
-                </div>
-
-                {/* Stat strip inside hero left */}
-                <div className="border-t border-white/5 pt-8 grid grid-cols-3 gap-6 max-w-lg">
-                  <div>
-                    <div className="text-3xl font-mono font-bold text-white tracking-widest">120+</div>
-                    <div className="text-[10px] text-white/40 uppercase tracking-widest mt-1 font-mono">Delivered SaaS</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-mono font-bold text-white tracking-widest">2.4ms</div>
-                    <div className="text-[10px] text-white/40 uppercase tracking-widest mt-1 font-mono">Latency Load</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-mono font-bold text-white tracking-widest">99.8%</div>
-                    <div className="text-[10px] text-white/40 uppercase tracking-widest mt-1 font-mono">Framerates</div>
-                  </div>
+              {/* CENTER SUBJECT: Center-focused exquisite female android composition */}
+              <div className="absolute lg:inset-0 flex items-center justify-center pointer-events-none z-10 select-none order-2 lg:order-none my-8 lg:my-0">
+                <div className="relative w-[300px] sm:w-[380px] lg:w-[480px] aspect-[4/5] flex items-center justify-center">
+                  <img 
+                    src="/src/assets/images/futuristic_hero_1780862257652.png" 
+                    alt="AETHER Cybernetic Android Helmet Portrait" 
+                    className="w-full h-full object-cover rounded-2xl filter brightness-110 contrast-100 drop-shadow-[0_25px_50px_rgba(0,0,0,0.8)] shadow-[0_0_80px_rgba(242,125,38,0.15)] transition-transform duration-700 hover:scale-105 pointer-events-auto"
+                    referrerPolicy="no-referrer"
+                  />
+                  
+                  {/* Subtle inner-atmosphere halo */}
+                  <div className="absolute rounded-full border border-[#F27D26]/20 bg-[#F27D26]/3 blur-md h-[180px] w-[180px] md:h-[300px] md:w-[300px] pointer-events-none mix-blend-color-dodge animate-pulse opacity-60" />
+                  
+                  {/* Visual mask fading the bottom of description */}
+                  <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[#030303] to-transparent pointer-events-none" />
                 </div>
               </div>
 
-              {/* Right Column: Stunning Interactive Artwork Showcase framed similarly to refernce */}
-              <div className="lg:col-span-5 relative flex justify-center group">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#F27D26]/20 via-transparent to-[#FF204D]/15 rounded-3xl blur-2xl opacity-60 z-0"></div>
-                
-                {/* Visual Artwork wrapper */}
-                <div className="relative w-full max-w-[420px] aspect-[4/5] bg-neutral-950 rounded-2xl border border-white/10 overflow-hidden shadow-2xl flex flex-col justify-between p-6 group-hover:border-white/20 transition-all duration-500 z-10">
-                  
-                  {/* Subtle Grid overlay for the card asset */}
-                  <div className="absolute inset-0 bg-[linear-gradient(rgba(18,16,16,0)_90%,rgba(0,0,0,0.45)_100%)] z-20" />
-                  
-                  {/* Cyberpunk display asset typography inside background */}
-                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[150px] font-bold text-white/[0.02] tracking-tighter leading-none pointer-events-none select-none font-mono">
-                    Æ
+              {/* LEFT COLUMN PANEL: Beautiful aligned left-hand blocks */}
+              <div className="w-full lg:w-[35%] flex flex-col items-start gap-8 z-25 order-1 lg:order-none relative">
+                {/* 900+ Happy Clients Pill */}
+                <div className="inline-flex items-center gap-2.5 py-2 px-4 rounded-full border border-white/5 bg-neutral-950/40 backdrop-blur-md shadow-lg">
+                  <div className="flex -space-x-1.5">
+                    <img className="w-5 h-5 rounded-full border border-black object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150" alt="avatar-1" />
+                    <img className="w-5 h-5 rounded-full border border-black object-cover" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150" alt="avatar-2" />
+                    <img className="w-5 h-5 rounded-full border border-black object-cover" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=150" alt="avatar-3" />
                   </div>
-
-                  {/* Header labels of card */}
-                  <div className="flex justify-between items-center z-20">
-                    <div className="flex items-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-[#F27D26] animate-ping" />
-                      <span className="text-[9px] font-mono tracking-widest text-[#F27D26] uppercase">SYSTEM.ONLINE</span>
-                    </div>
-                    <div className="text-[9px] font-mono tracking-widest text-white/40">
-                      SECURE ASSET // V.26
-                    </div>
-                  </div>
-
-                  {/* High Quality Rendered Hero Image */}
-                  <div className="absolute inset-y-12 inset-x-4 flex items-center justify-center z-10 overflow-hidden rounded-xl">
-                    <img 
-                      src="/src/assets/images/futuristic_hero_1780862257652.png" 
-                      alt="AETHER Cinematic Astronaut Visor Woman UI Asset" 
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 filter brightness-105 contrast-95"
-                    />
-                    
-                    {/* Glowing circular halo behind her helmet like the reference image */}
-                    <div className="absolute w-[200px] h-[200px] rounded-full border border-[#F27D26]/30 bg-[#F27D26]/5 blur-md pointer-events-none mix-blend-screen opacity-65 animate-pulse" />
-                  </div>
-
-                  {/* Footer Interactive section of visual artwork card */}
-                  <div className="z-20 bg-black/70 backdrop-blur-md rounded-xl p-4 border border-white/5 space-y-3.5 mt-auto">
-                    <div className="flex justify-between items-start">
-                      <div>
-                        <h4 className="text-xs font-mono tracking-wider font-bold text-white">AETHER CORE INITIATIVE</h4>
-                        <p className="text-[9px] text-white/45 font-mono">Configuring high-end cyber portals</p>
-                      </div>
-                      <span className="text-[10px] bg-red-500/10 text-red-400 font-mono tracking-wider px-2 py-0.5 rounded border border-red-500/15">
-                        TACTILE UI
-                      </span>
-                    </div>
-
-                    {/* Compact Interactive Input embedded directly in visual card as specified in Gander image layout */}
-                    <form onSubmit={handleHeroSubmit} className="space-y-2">
-                      {heroEmailSuccess ? (
-                        <div className="text-[9px] font-mono text-[#F27D26] bg-[#F27D26]/10 p-2 rounded border border-[#F27D26]/20 text-center uppercase animate-pulse">
-                          // TELEMETRY ACTIVE. PROPOSAL CODE ISSUED.
-                        </div>
-                      ) : (
-                        <div className="flex gap-2">
-                          <input 
-                            type="email" 
-                            required
-                            placeholder="Connect address via secure mail..." 
-                            value={heroEmail}
-                            onChange={(e) => setHeroEmail(e.target.value)}
-                            className="bg-black/90 text-white text-[10px] font-mono px-3 py-2 rounded-lg border border-white/10 flex-1 focus:outline-none focus:border-[#F27D26] transition-colors"
-                          />
-                          <button 
-                            type="submit" 
-                            className="bg-[#F27D26] hover:bg-[#FF2D55] text-black hover:text-white px-3.5 rounded-lg flex items-center justify-center transition-all cursor-pointer"
-                            title="Submit secure address key"
-                          >
-                            <Send size={11} />
-                          </button>
-                        </div>
-                      )}
-                    </form>
-                  </div>
-
+                  <span className="text-[10px] font-mono tracking-[0.15em] text-white/50 uppercase font-bold">900+ Happy Clients</span>
                 </div>
+
+                {/* Oversized typography layout block */}
+                <div className="space-y-2">
+                  <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[5.4vw] font-black tracking-tighter leading-[0.9] text-white">
+                    Helped <br />
+                    Launch <span className="text-shimmer bg-gradient-to-r from-[#F27D26] via-[#FF264D] to-[#F27D26] bg-clip-text text-transparent italic">&gt;120+</span> <br />
+                    SaaS Systems<span className="text-[#F27D26]">.</span>
+                  </h1>
+                </div>
+
+                {/* Left CTAs Pill Row */}
+                <div className="flex flex-wrap gap-4 pt-2">
+                  <button
+                    id="hero-start-now-pill"
+                    onClick={() => { playBeep(950, 0.08, 'triangle'); setActiveTab('contact'); }}
+                    className="px-8 py-4 bg-gradient-to-r from-[#F27D26] to-[#FF2D55] text-white font-bold rounded-full text-xs tracking-widest shadow-[0_4px_25px_rgba(242,125,38,0.35)] hover:shadow-[0_4px_35px_rgba(242,125,38,0.55)] hover:scale-[1.03] transition-all cursor-pointer inline-flex items-center gap-2"
+                  >
+                    START NOW
+                  </button>
+                  <button
+                    id="hero-chat-now-pill"
+                    onClick={() => { playBeep(750, 0.04); setIsAIChatOpen(true); }}
+                    className="px-7 py-4 border border-white/10 bg-white/5 text-white/90 hover:bg-white/10 hover:border-white/30 font-bold rounded-full text-xs tracking-widest transition-all cursor-pointer inline-flex items-center gap-2"
+                  >
+                    CHAT WITH US
+                    <ChevronRight size={13} className="text-white/60" />
+                  </button>
+                </div>
+              </div>
+
+              {/* RIGHT COLUMN PANEL: Aligned right-hand narrative description & Glass widgets */}
+              <div className="w-full lg:w-[35%] flex flex-col items-start lg:items-end gap-10 z-25 order-3 lg:order-none relative">
+                
+                {/* Visual Description block */}
+                <div className="space-y-4 lg:text-right flex flex-col lg:items-end max-w-sm">
+                  <p className="text-white/50 text-sm md:text-base font-sans tracking-wide leading-relaxed">
+                    AETHER is a premium global branding and digital design powerhouse focused on engineering tactile Web SaaS platforms and cinema-fidelity responsive interfaces.
+                  </p>
+                  
+                  {/* Decorative underline guide */}
+                  <button 
+                    onClick={() => { playBeep(700, 0.04); setActiveTab('services'); }}
+                    className="text-xs font-mono font-bold tracking-[0.2em] text-[#F27D26] hover:text-[#FF2D55] uppercase transition-colors inline-flex items-center gap-1.5 group font-bold"
+                  >
+                    HOW CAN WE HELP YOU?
+                    <ArrowRight size={12} className="inline transition-transform group-hover:translate-x-1" />
+                  </button>
+                </div>
+
+                {/* Premium Glass Card Call Contact Widget */}
+                <div className="bg-black/45 border border-white/5 rounded-2xl p-6 backdrop-blur-md max-w-[340px] w-full shadow-[0_20px_50px_rgba(0,0,0,0.6)] border-t-white/10 relative overflow-hidden group">
+                  {/* Top neon hairline indicator */}
+                  <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#F27D26]/40 to-transparent" />
+                  
+                  <div className="space-y-1.5 mb-5">
+                    <h3 className="text-xs font-mono tracking-[0.25em] text-white uppercase font-bold">Contact by Email</h3>
+                    <p className="text-[11px] text-white/35 font-sans">Enter your email and connect with are architects</p>
+                  </div>
+
+                  {/* Icon pills to mimic Gander social card symbols */}
+                  <div className="flex gap-2 mb-6">
+                    <button 
+                      onClick={() => playBeep(500, 0.03)}
+                      className="w-6 h-6 rounded-full bg-white/5 border border-white/10 hover:border-white/30 text-white/50 hover:text-white text-[9px] flex items-center justify-center font-mono font-bold transition-all cursor-pointer"
+                    >
+                      X
+                    </button>
+                    <button 
+                      onClick={() => playBeep(520, 0.03)}
+                      className="w-6 h-6 rounded-full bg-white/5 border border-white/10 hover:border-white/30 text-white/50 hover:text-white text-[9px] flex items-center justify-center font-mono font-bold transition-all cursor-pointer"
+                    >
+                      @
+                    </button>
+                    <button 
+                      onClick={() => playBeep(540, 0.03)}
+                      className="w-6 h-6 rounded-full bg-[#F27D26]/20 border border-[#F27D26]/40 text-[#F27D26] text-[9px] flex items-center justify-center font-mono font-bold transition-all"
+                    >
+                      in
+                    </button>
+                  </div>
+
+                  {/* Form input frame */}
+                  <form onSubmit={handleHeroSubmit} className="relative select-text">
+                    {heroEmailSuccess ? (
+                      <div className="text-[10px] font-mono font-bold text-[#F27D26] bg-[#F27D26]/10 py-3 px-4 rounded-xl border border-[#F27D26]/20 text-center uppercase animate-pulse">
+                        // SECURE SYSTEM LINK DEPLOYED
+                      </div>
+                    ) : (
+                      <div className="flex items-center bg-black/60 rounded-xl border border-white/10 px-4 py-1.5 focus-within:border-[#F27D26] transition-colors shadow-inner">
+                        <input 
+                          type="email" 
+                          required
+                          placeholder="Your Email" 
+                          value={heroEmail}
+                          onChange={(e) => setHeroEmail(e.target.value)}
+                          className="bg-transparent text-white text-xs font-mono py-2 w-full focus:outline-none placeholder:text-white/20 select-text"
+                        />
+                        <button 
+                          type="submit" 
+                          className="w-8 h-8 rounded-full bg-[#F27D26] hover:bg-[#FF2D55] text-black hover:text-white flex items-center justify-center transition-colors cursor-pointer shrink-0 ml-2 shadow-md hover:scale-105"
+                          title="Connect Address"
+                        >
+                          <Send size={11} className="transition-transform group-hover:translate-x-0.5" />
+                        </button>
+                      </div>
+                    )}
+                  </form>
+                </div>
+
               </div>
 
             </div>
