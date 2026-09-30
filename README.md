@@ -1,20 +1,54 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Gander — Futuristic Agency Website
 
-# Run and deploy your AI Studio app
+A futuristic digital agency website with a bold, forward-looking design language — service offerings, work highlights, and conversion-focused sections in a striking modern layout.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/aae0b198-2e66-4a29-b0a5-ec5c496dbbda
+- Modern agency landing experience
+- Service and portfolio sections
+- Bold typography and futuristic styling
+- Smooth animations and interactions
+- Fully responsive design
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend:** React, TypeScript, Tailwind CSS, Motion, Lucide icons
+- **Build:** Vite
 
+## Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- Node.js 18+
+
+### Installation
+
+```bash
+npm install
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+├── src/            # Application source
+├── public/         # Static assets
+├── assets/         # Design assets
+├── index.html      # HTML entry point
+└── package.json
+```
+
+## Links
+
+- Studio: https://sitora.org
+- GitHub: https://github.com/sitoraweb6-oss
+
+---
+
+Designed and built by [Sitora Web](https://sitora.org).
